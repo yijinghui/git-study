@@ -15,4 +15,8 @@ public class UserController {
     public String register(String username, String password){
         return "注册成功！";
     }
+
+    public String delete(String username, String password){
+        return "删除成功！";
+    }
 }
