@@ -23,4 +23,8 @@ public class UserController {
     public String update(String username, String password){
         return "更新成功！";
     }
+
+    public String save(String username, String password){
+        return "保存成功！";
+    }
 }
