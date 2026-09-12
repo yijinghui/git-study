@@ -11,4 +11,8 @@ public class UserController {
     public String query() {
         return "查询成功！";
     }
+
+    public String register(String username, String password){
+        return "注册成功！";
+    }
 }
