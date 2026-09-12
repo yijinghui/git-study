@@ -19,4 +19,8 @@ public class UserController {
     public String delete(String username, String password){
         return "删除成功！";
     }
+
+    public String update(String username, String password){
+        return "更新成功！";
+    }
 }
